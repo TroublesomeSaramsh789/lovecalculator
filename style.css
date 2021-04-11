@@ -1,0 +1,81 @@
+* {
+  font-family: sans-serif;
+}
+main {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.head {
+  font-size: 100px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  padding: 20px 30px;
+  width: 100px;
+  background-color: coral;
+  margin: 5px 0px;
+  transform: translate(-55%, 5%);
+}
+.body {
+  font-size: 40px;
+  text-align: center;
+  margin: 25px 5px;
+}
+
+.head2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.loveForm {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+label {
+  display: block;
+  margin: 10px 0px;
+  font-size: 20px;
+  border: none;
+}
+input {
+  font-size: 20px;
+  border: none;
+  border: solid rgb(26, 26, 26) 1px;
+  color: rgb(92, 92, 92);
+  padding: 5px 5px;
+}
+button {
+  margin: 10px 0px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: rgb(187, 17, 45);
+  color: white;
+}
+
+form {
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgb(238, 238, 238);
+}
+
+@media screen and (max-width: 450px) {
+  .head {
+    font-size: 80px;
+    padding: 20px 25px;
+  }
+  .head2 {
+    margin: 15px;
+    font-size: 30px;
+  }
+  .body {
+    font-size: 25px;
+  }
+  .loveForm {
+    min-width: 200px;
+    padding: 20px 10px;
+  }
+}
